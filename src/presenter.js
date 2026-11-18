@@ -1,17 +1,17 @@
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
 
-const first = document.querySelector("#primer-numero");
+const first = document.querySelector("#primer-numero"); //saca del html los campos de entrada con el id
 const second = document.querySelector("#segundo-numero");
 const form = document.querySelector("#sumar-form");
 const multiplicarForm = document.querySelector("#multiplicar-form");
 const div = document.querySelector("#resultado-div");
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", (event) => { // registra una función para cuando se envie el formulario
   event.preventDefault(); //para no recargar la pagina
 
-  //por que se lee aqui adentro?
-  const firstNumber = Number.parseInt(first.value);
+  // se leen acá porque el usuario puede cambiar los valores de los campos de entrada antes de enviar el formulario
+  const firstNumber = Number.parseInt(first.value);// convierte el valor del campo de entrada en un número entero
   const secondNumber = Number.parseInt(second.value);
 
   div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";

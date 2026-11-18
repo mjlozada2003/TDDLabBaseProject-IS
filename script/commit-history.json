@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "76397d5b97e477b8ebcccc5055fc44208f4e0212",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-08-19T02:42:42.000Z",
       "message": "feat: nueva boton multiplicación",
-      "url": "https://github.com/mjlozada2003/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDLabBaseProject/commit/76397d5b97e477b8ebcccc5055fc44208f4e0212"
     },
     "stats": {
       "total": 21,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-11-18T16:37:40.000Z",
+      "message": "multiplicar y dividir",
+      "url": "https://github.com/mjlozada2003/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 32,
+      "deletions": 5,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
